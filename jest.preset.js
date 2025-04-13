@@ -1,3 +1,3 @@
 const nxPreset = require('@nx/jest/preset').default;
 
-module.exports = { ...nxPreset, passWithNoTest: true };
+module.exports = { ...nxPreset, passWithNoTests: true };
